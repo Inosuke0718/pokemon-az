@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "プロジェクトの初期化",
+      "description": "Vite + React + TypeScriptを使用してプロジェクトをセットアップし、必要な依存関係（Three.js, React Three Fiber, Drei, Rapier, Zustand）をインストールする。また、基本的なファイル構造とindex.cssを作成する。",
+      "status": "completed",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "基本シーンと物理世界の構築",
+      "description": "React Three FiberとRapierを使用して、物理演算が有効な基本的な3Dシーンを作成する。照明、環境マップ、および単純な地面を追加して、物理動作を確認する。",
+      "status": "completed",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "プレイヤーキャラクターの実装",
+      "description": "三人称視点のキャラクターコントローラーを実装する。RapierのRigidBodyを使用した移動、ジャンプ、ダッシュ機能、およびアニメーション（待機、歩行、走行）の同期を含める。カメラ追従システムも実装する。",
+      "status": "completed",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "オープンワールド環境の実装",
+      "description": "Lumiose Cityをモデルにした都市環境と、チャンクベースのワールド読み込みシステムを実装する。ワイルドゾーンとバトルゾーンの区画分けを行い、環境オブジェクト（木、建物など）を配置する。",
+      "status": "completed",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "ポケモン捕獲システムの実装",
+      "description": "モンスターボールの物理的な投擲メカニクス、捕獲率の計算ロジック、および捕獲成功/失敗のアニメーションを実装する。捕獲したポケモンをZustandで管理するインベントリシステムも作成する。",
+      "status": "completed",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "title": "リアルタイムバトルシステムの実装",
+      "description": "フィールド上でのリアルタイム戦闘システムを構築する。攻撃、回避、技のクールダウン、HP管理、および敵AI（ステートマシン）を実装する。メガシンカシステムもここに含める。",
+      "status": "completed",
+      "completed": true
+    },
+    {
+      "id": 7,
+      "title": "UI/HUDの統合と仕上げ",
+      "description": "ゲーム内UI（HPバー、手持ちポケモン、インベントリ、バトルコマンド）を実装し、Zustandストアと連携させる。全体のパフォーマンス最適化とビジュアルの調整を行う。",
+      "status": "completed",
+      "completed": true
+    },
+    {
+      "id": 8,
+      "title": ".gitignoreの整備",
+      "description": "Node.js, Vite, TypeScriptプロジェクトに最適な.gitignoreファイルを作成し、不要なファイルやディレクトリ（node_modules, dist, .envなど）がGit管理下に入らないようにする。",
+      "status": "completed",
+      "completed": true
+    }
+  ]
+}
