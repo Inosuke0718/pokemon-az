@@ -55,6 +55,13 @@
       "description": "Node.js, Vite, TypeScriptプロジェクトに最適な.gitignoreファイルを作成し、不要なファイルやディレクトリ（node_modules, dist, .envなど）がGit管理下に入らないようにする。",
       "status": "completed",
       "completed": true
+    },
+    {
+      "id": 9,
+      "title": "GitHub Pagesへのデプロイ設定",
+      "description": "vite.config.tsにbase設定を追加し、GitHub Actionsを使用してGitHub Pagesに自動デプロイするためのワークフローファイルを作成する。",
+      "status": "completed",
+      "completed": true
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { useRef, useMemo } from "react";
+import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
@@ -34,7 +34,12 @@ export const HumanoidModel = ({
 
       leftArm.current.rotation.x = -angle;
       rightArm.current.rotation.x = angle;
-    } else if (leftLeg.current && rightLeg.current) {
+    } else if (
+      leftLeg.current &&
+      rightLeg.current &&
+      leftArm.current &&
+      rightArm.current
+    ) {
       // Reset pose
       leftLeg.current.rotation.x = 0;
       rightLeg.current.rotation.x = 0;
